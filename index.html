@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Pessoal - Início</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+</head>
+
+<body data-pagina="inicio">
+
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="#" class="nav-btn active" onclick="mudarPagina('inicio', this)">Início</a></li>
+            <li><a href="#" class="nav-btn" onclick="mudarPagina('curriculo', this)">Currículo</a></li>
+            <li><a href="#" class="nav-btn" onclick="mudarPagina('portfolio', this)">Portfólio</a></li>
+            <li><a href="#" class="nav-btn" onclick="mudarPagina('novidades', this)">Novidades</a></li>
+            <li><a href="#" class="nav-btn" onclick="mudarPagina('contato', this)">Contato</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+        <div id="conteudo-principal">
+
+            <main id="inicio" class="secao-pagina content">
+                <h1>Apresentação</h1>
+                <hr>
+                <p>Olá! Bem-vindo à minha página pessoal. Este espaço foi criado para compartilhar minha trajetória,
+                    projetos e novidades.</p>
+
+                <p>Natural de Niterói e atualmente no último ano do curso de Ciência da Computação na Universidade Veiga
+                    de Almeida (UVA), sou um entusiasta da tecnologia que encontrou, na interseção entre a análise de
+                    dados e o universo dos jogos competitivos, a sua verdadeira vocação.</p>
+
+                <h4>O Início e a Área de Atuação</h4>
+                <p>Minha jornada começou no <strong>Rainbow Six Siege</strong>, ainda no PS4, quando ingressei como
+                    analista (tático e de performance) em um time de Tier 3. Desde então, não larguei mais a paixão por
+                    esports e dados. Sempre busco estar envolvido em projetos do meio e, ao unir essa paixão com a
+                    programação, meu futuro ganhou um foco estratégico.</p>
+                <p>Em 2024, iniciei um trabalho voluntário como Analista de Performance para a página
+                    <strong>LOUDINHOS</strong> (voltada à organização <strong>LOUD</strong>). O que começou como um
+                    hobby transformou-se em uma expertise sólida: passei a coletar, processar e interpretar dados
+                    complexos de partidas profissionais de <em>League of Legends, Valorant e Rainbow Six Siege</em> para
+                    gerar insights competitivos e conteúdos para as redes sociais.
+                </p>
+
+                <h4>Interesses e Especialidades</h4>
+                <p>Com domínio em Python e experiência em Java, especializei-me na manipulação de dados e automação.
+                    Meus principais interesses incluem:</p>
+                <ul>
+                    <li><strong>Data Science & Engineering:</strong> Desenvolvimento de pipelines de dados e integração
+                        de APIs.</li>
+                    <li><strong>Análise Preditiva:</strong> Atualmente, desenvolvo como Trabalho de Conclusão de Curso
+                        (TCC) uma plataforma que utiliza Machine Learning para prever resultados de partidas
+                        profissionais de LoL.</li>
+                    <li><strong>Banco de Dados:</strong> Experiência com PostgreSQL e gestão de dados estruturados.</li>
+                    <li><strong>Desenvolvimento Web:</strong> Criação de portfólios e interfaces utilizando HTML5 e CSS,
+                        sempre com foco em uma estética funcional e informativa.</li>
+                </ul>
+
+                <h4>Além do Código</h4>
+                <p>Fora do ambiente de desenvolvimento e das planilhas de análise, sou um entusiasta do handebol,
+                    esporte que joguei por 6 anos nos Torneios Escolares de Niterói (JEN e Católicos). Também valorizo
+                    momentos de lazer clássicos, como um bom churrasco com amigos, equilibrando a intensidade da vida
+                    acadêmica com o convívio social.</p>
+
+                <blockquote class="objetivo-destaque">
+                    <strong>Objetivo Profissional:</strong> Consolidar-me como uma referência em Data Science aplicada
+                    ao esporte e aos esports, utilizando a tecnologia para transformar números brutos em estratégias
+                    vencedoras no cenário global.
+                </blockquote>
+            </main>
+
+            <main id="curriculo" class="secao-pagina content" style="display: none;">
+                <h1>Currículo</h1>
+                <hr>
+
+                <br>
+
+                <div style="margin: 25px 0;">
+                    <a href="docs/Curriculo_Rodrigo_Farah.pdf" download="Curriculo_Rodrigo_Farah.pdf"
+                        class="btn-download">
+                        <img src="images/download_btn.webp" alt="Botão de Download" class="icone-social"> Baixar
+                        Currículo em PDF
+                    </a>
+                </div>
+
+                <div class="table-responsive">
+                    <table class="liqui-table">
+                        <thead>
+                            <tr>
+                                <th colspan="4" class="table-title">Educação e Formação</th>
+                            </tr>
+                            <tr>
+                                <th>Instituição</th>
+                                <th>Curso</th>
+                                <th>Período</th>
+                                <th>Status do Curso</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Universidade Veiga de Almeida</strong></td>
+                                <td>Bacharelado em Ciência da Computação</td>
+                                <td>2022 - Presente</td>
+                                <td>Cursando</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="4" class="table-footer">Última atualização em 17-03-2026</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+
+                <div class="table-responsive">
+                    <table class="liqui-table" style="width: 100%; margin-top: 20px;">
+                        <tr class="table-title">
+                            <th colspan="3">Experiência Profissional e Voluntariado</th>
+                        </tr>
+                        <tr>
+                            <th>Local</th>
+                            <th>Cargo / Função</th>
+                            <th>Período</th>
+                        </tr>
+
+                        <tr class="categoria-divisor">
+                            <th></th>
+                            <th>LIDERANÇA</th>
+                            <th></th>
+                        </tr>
+
+                        <tr>
+                            <td><strong>Atlética de Computação UVA</strong></td>
+                            <td>Diretor de Esports</td>
+                            <td>Ago 2022 – Fev 2025</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Atlética de Computação UVA</strong></td>
+                            <td>Coordenador do Time de Vôlei</td>
+                            <td>Ago 2022 – Presente</td>
+                        </tr>
+
+                        <tr class="categoria-divisor">
+                            <th></th>
+                            <th>trabalho voluntário</th>
+                            <th></th>
+                        </tr>
+
+                        <tr>
+                            <td><strong>LOUDINHOS</strong></td>
+                            <td>Analista de Performance e Dados em Esports</td>
+                            <td>Jun 2024 – Presente</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Hacking Rio 2022</strong></td>
+                            <td>Suporte a Pessoas</td>
+                            <td>Set 2022</td>
+                        </tr>
+                        <tr>
+                            <td><strong>LoG Ceará Club</strong></td>
+                            <td>COO & Analista de Performance</td>
+                            <td>Ago 2018 – Jan 2022</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="table-responsive">
+                    <table class="liqui-table" style="width: 100%; margin-top: 20px;">
+                        <tr class="table-title">
+                            <th colspan="3" class="table-title">Habilidades e Interesses</th>
+                        </tr>
+                        <tr>
+                            <th style="width: 30%;">Categoria</th>
+                            <th>Tecnologias / Conhecimentos</th>
+                        </tr>
+
+                        <tr>
+                            <td><strong>Linguagens de Programação</strong></td>
+                            <td class="icon-list">
+                                <i class="devicon-python-plain"></i> Python,
+                                <i class="devicon-java-plain"></i> Java,
+                                <i class="devicon-html5-plain"></i> HTML,
+                                <i class="devicon-css3-plain"></i> CSS,
+                                SQL
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>Banco de Dados</strong></td>
+                            <td class="icon-list">
+                                <i class="devicon-mysql-plain"></i> MySQL,
+                                NoSQL
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>Ferramentas e Tecnologias</strong></td>
+                            <td class="icon-list">
+                                <i class="devicon-git-plain"></i> Git,
+                                <i class="devicon-github-original"></i> GitHub,
+                                Microsoft Office,
+                                <i class="devicon-photoshop-plain"></i> Photoshop,
+                                <i class="devicon-windows8-original"></i> Windows,
+                                <i class="devicon-linux-plain"></i> Linux
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>Habilidades Técnicas</strong></td>
+                            <td>Suporte Técnico (Sistemas Operacionais), Backups, Reparo de Hardware em geral</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Idiomas</strong></td>
+                            <td>Português (Nativo), Inglês (Intermediário), Espanhol (Intermediário)</td>
+                        </tr>
+                    </table>
+                </div>
+
+            </main>
+
+            <main id="portfolio" class="secao-pagina content" style="display: none;">
+                <h1>Projetos e Portfólio</h1>
+                <hr>
+                <p>Aqui você encontra uma seleção dos meus principais desenvolvimentos, pesquisas e códigos abertos.</p>
+
+                <div class="portfolio-grid">
+
+                    <div class="project-card">
+                        <h3>Gol.gg Web Scraper</h3>
+                        <p>Script de automação desenvolvido para extrair e estruturar dados estatísticos avançados de
+                            partidas competitivas de League of Legends, criando bases sólidas para análises de
+                            performance e Data Science.</p>
+                        <div class="tech-tags">
+                            <span><i class="devicon-java-plain"></i>Python</span>
+                            <span>Web Scraping</span>
+                            <span>Data Extração</span>
+                        </div>
+                        <a href="https://github.com/RcFarah/GolggWebScraper" target="_blank" class="btn-projeto">Ver no
+                            GitHub ➜</a>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>Green4U - Product Management</h3>
+                        <p>Sistema focado no gerenciamento de produtos, implementando operações completas de CRUD. A
+                            arquitetura atual utiliza persistência de dados em arquivos locais, estabelecendo uma base
+                            sólida de lógica de negócios para futuras integrações com bancos de dados relacionais.</p>
+
+                        <div class="tech-tags">
+                            <span><i class="devicon-java-plain"></i> Java</span>
+                            <span>Manipulação de Arquivos</span>
+                            <span>Gestão de Dados</span>
+                        </div>
+
+                        <a href="https://github.com/RcFarah/Green4U-Product-Management" target="_blank"
+                            class="btn-projeto">Ver no GitHub ➜</a>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>Sistema de Indicação de Filmes</h3>
+                        <p>Aplicação desktop interativa com interface gráfica (GUI) desenvolvida para atuar como um
+                            catálogo de recomendações. O sistema processa imagens dinamicamente e consome dados de
+                            arquivos de texto estruturados, garantindo uma arquitetura leve e de fácil manutenção.</p>
+
+                        <div class="tech-tags">
+                            <span><i class="devicon-python-plain"></i> Python</span>
+                            <span>Tkinter (GUI)</span> <span>Pillow (Imagens)</span>
+                        </div>
+
+                        <a href="https://github.com/RcFarah/FilmSearch" target="_blank" class="btn-projeto">Ver no
+                            GitHub ➜</a>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>User Management System</h3>
+                        <p>Desenvolvimento da camada de serviço e banco de dados para autenticação e gestão de usuários.
+                            Estruturado para garantir regras de negócio consistentes no cadastro, edição e exclusão de
+                            perfis.</p>
+                        <div class="tech-tags">
+                            <span>Back-end</span>
+                            <span>Banco de Dados</span>
+                            <span>CRUD</span>
+                        </div>
+                        <a href="https://github.com/RcFarah/UserManagement" target="_blank" class="btn-projeto">Ver no
+                            GitHub ➜</a>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>Analisador de Compiladores</h3>
+                        <p>Projeto focado nos fundamentos da Ciência da Computação. Envolve a construção de analisadores
+                            léxicos/sintáticos para interpretar e validar estruturas de código de acordo com regras
+                            gramaticais formais.</p>
+                        <div class="tech-tags">
+                            <span>Lógica de Programação</span>
+                            <span>Análise Léxica</span>
+                            <span>Algoritmos Complexos</span>
+                        </div>
+                        <a href="https://github.com/RcFarah/A2-Compiladores" target="_blank" class="btn-projeto">Ver no
+                            GitHub ➜</a>
+                    </div>
+
+                </div>
+            </main>
+
+            <main id="novidades" class="secao-pagina content" style="display: none;">
+                <h1>Novidades e Atualizações</h1>
+                <hr>
+                <p>Acompanhe aqui meus últimos passos, estudos e conquistas na área de tecnologia.</p>
+
+                <div class="timeline">
+
+                    <div class="timeline-item">
+                        <div class="timeline-date">Março de 2026</div>
+                        <div class="timeline-content">
+                            <h3>Lançamento do meu Portfólio! 🚀</h3>
+                            <p>Muito feliz em colocar no ar a primeira versão do meu site pessoal. Ele foi construído do
+                                zero utilizando HTML, CSS e JavaScript puro, aplicando conceitos de Single Page
+                                Application (SPA), responsividade e modo noturno dinâmico.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-date">Fevereiro de 2026</div>
+                        <div class="timeline-content">
+                            <h3>Avanços no Projeto Final</h3>
+                            <p>Dando os próximos passos na estruturação do meu projeto de conclusão de curso, focando na
+                                arquitetura de banco de dados e nos modelos de análise preditiva.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </main>
+
+            <main id="contato" class="secao-pagina content" style="display: none;">
+                <h1>Entre em Contato</h1>
+                <hr>
+                <p>Você pode me encontrar nas redes sociais abaixo ou me enviar uma mensagem diretamente pelo
+                    formulário.</p>
+
+                <ul style="margin-bottom: 25px; list-style: none; padding-left: 0;">
+                    <li style="margin-bottom: 10px;">
+                        <a href="https://www.linkedin.com/in/rcfarah/" target="_blank"
+                            style="color: #66b2ff; text-decoration: none; display: flex; align-items: center;">
+                            <img src="images/Logo_LinkedIn.webp" alt="Ícone do LinkedIn" class="icone-social">
+                            LinkedIn
+                        </a>
+                    </li>
+
+                    <li style="margin-bottom: 10px;">
+                        <a href="https://github.com/RcFarah" target="_blank"
+                            style="color: #66b2ff; text-decoration: none; display: flex; align-items: center;">
+                            <picture>
+                                <source media="(prefers-color-scheme: light)" srcset="images/Logo_GitHub_Darkmode.webp">
+                                <img src="images/Logo_GitHub_Lightmode.webp" alt="Ícone do GitHub" class="icone-social">
+                            </picture>
+                            GitHub
+                        </a>
+                    </li>
+
+                    <li style="margin-bottom: 10px;">
+                        <a href="https://x.com/RcFarah_" target="_blank"
+                            style="color: #66b2ff; text-decoration: none; display: flex; align-items: center;">
+                            <picture>
+                                <source media="(prefers-color-scheme: light)" srcset="images/Logo_X_Darkmode.webp">
+                                <img src="images/Logo_X_Lightmode.webp" alt="Ícone do Twitter" class="icone-social">
+                            </picture>
+                            X (Twitter)
+                        </a>
+                    </li>
+                </ul>
+
+                <h2>Formulário de Contato</h2>
+                <div class="form-wrapper">
+                    <form id="meu-formulario" action="https://formspree.io/f/mqeywzwe" method="POST">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" placeholder="Como devo te chamar?" required>
+
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" placeholder="seu.email@exemplo.com" required>
+
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem aqui..."
+                            required></textarea>
+
+                        <button type="submit" class="btn-enviar">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </main>
+
+        </div>
+
+        <aside class="infobox">
+            <div class="infobox-header">
+                <h3>Rodrigo Farah</h3>
+            </div>
+            <img src="images/MinhaFoto.webp" alt="Foto do criador do site, em companhia do Mc Marechal"
+                class="infobox-img">
+
+            <table class="infobox-table">
+                <tr>
+                    <th>Nome:</th>
+                    <td>Rodrigo Corrêa de Sá Farah</td>
+                </tr>
+                <tr>
+                    <th>Nacionalidade:</th>
+                    <td><img src="images/brasil.webp" alt="Bandeira do Brasil em miniatura" class="flag-icon">Brasileiro
+                    </td>
+                </tr>
+                <tr>
+                    <th>Ocupação:</th>
+                    <td>Estudante</td>
+                </tr>
+                <tr>
+                    <th>Localização:</th>
+                    <td>Niterói, Rio de Janeiro - Brasil</td>
+                </tr>
+                <tr>
+                    <th>E-mail:</th>
+                    <td>rodrigocsfarah@gmail.com</td>
+                </tr>
+            </table>
+        </aside>
+
+    </div>
+
+    <div id="toast-notificacao" class="toast"></div>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
