@@ -33,11 +33,11 @@ Como o projeto é 100% *Front-end* estático (sem exigência de um servidor back
 
 1. Clone este repositório para a sua máquina:
    ```bash
-   git clone [https://github.com/RcFarah/NOME_DO_SEU_REPOSITORIO.git](https://github.com/RcFarah/NOME_DO_SEU_REPOSITORIO.git)
+   git clone [https://github.com/RcFarah/Portfolio.git](https://github.com/RcFarah/Portfolio.git)
    ```
 2. Acesse a pasta do projeto através do terminal:
    ```bash
-   cd NOME_DO_SEU_REPOSITORIO
+   cd Portfolio
    ```
 3. Abra o arquivo index.html diretamente no seu navegador de preferência.
 
